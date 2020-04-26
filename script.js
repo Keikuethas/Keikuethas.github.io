@@ -40,7 +40,7 @@ function getRandomInRange(min, max)
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-rbutton.addEventListener("click",getYour(0));
-sbutton.addEventListener("click",getYour(1));
-pbutton.addEventListener("click",getYour(2));
+rbutton.addEventListener("click",your = 0);
+sbutton.addEventListener("click",your = 1);
+pbutton.addEventListener("click",your = 2);
 
