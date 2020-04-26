@@ -28,7 +28,7 @@ function fight()
 		document.write(res);
 		Window.promt(res)
 	}
-
+}
 function getYour(you)
 {
 	your = you;
@@ -40,8 +40,6 @@ function getRandomInRange(min, max)
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-
-}
 rbutton.addEventListener("click",getYour(0));
 sbutton.addEventListener("click",getYour(1));
 pbutton.addEventListener("click",getYour(2));
