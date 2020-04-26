@@ -40,7 +40,7 @@ rbutton.addEventListener("click",function()
 your = 0;
 fight();
 });
-sbutton.addEventListener("click"function()
+sbutton.addEventListener("click",function()
 {
 your = 1;
 fight();
