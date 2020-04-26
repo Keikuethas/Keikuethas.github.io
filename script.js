@@ -37,9 +37,17 @@ function getRandomInRange(min, max)
 
 rbutton.addEventListener("click",function()
 {
-your = 100;
+your = 0;
 fight();
 });
-sbutton.addEventListener("click",your = 1);
-pbutton.addEventListener("click",your = 2);
+sbutton.addEventListener("click"function()
+{
+your = 1;
+fight();
+});
+pbutton.addEventListener("click",function()
+{
+your = 2;
+fight();
+});
 
