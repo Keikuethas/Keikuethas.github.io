@@ -29,18 +29,17 @@ function fight()
 		Window.promt(res)
 	}
 }
-function getYour(you)
-{
-	your = you;
-	fight();
-}
 
 function getRandomInRange(min, max)
 {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-rbutton.addEventListener("click",your = 0);
+rbutton.addEventListener("click",function()
+{
+your = 100;
+fight();
+});
 sbutton.addEventListener("click",your = 1);
 pbutton.addEventListener("click",your = 2);
 
