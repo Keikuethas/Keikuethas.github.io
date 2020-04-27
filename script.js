@@ -24,7 +24,7 @@ function fight()
 			case 0:res = 1;
 			case 2:res = 2;
 		}
-		console.log(res);
+		console.log(res+" my is:"+my);
 		//document.write(res);
 		var a1 = Window.prompt(res)
 	}
