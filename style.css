@@ -42,7 +42,64 @@ color: black;
 text-decoration: none;
 color: black;
 }
+.central {
+	display: flex;
+	justify-content: center;
+}
 
+.menu {
+	justify-content: flex-start;
+	height:10;
+	max-width:1000;
+}
+
+.menu_button {
+	border-radius: 5px;
+	border: 2px solid black;
+	width: 1000;
+	height: 1;
+}
+
+.menu_button a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu_button:hover {
+	background-color: blue !important;
+}
+
+.chat_window {
+	margin: 0 auto;
+	border: 2px solid yellow;
+	background-color: aliceblue;
+	width: 80%;
+	border-radius: 25px;
+}
+
+.menu_button a:link {
+text-decoration: none;
+color: black;
+}
+
+.menu_button a:visited {
+text-decoration: none;
+color: black;
+}
+
+.menu_button a:hover {
+text-decoration: none;
+color: black;
+}
+
+.menu_button a:active {
+text-decoration: none;
+color: black
+}
+.message_me {
+	margin-left: auto;
+	margin-right: 0;
+}
 .menu_button a:hover {
 text-decoration: none;
 color: black;
