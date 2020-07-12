@@ -35,76 +35,89 @@
 
 .menu_button a:link {
 text-decoration: none;
-color: black;
+color: white;
 }
 
 .menu_button a:visited {
 text-decoration: none;
-color: black;
-}
-.central {
-	display: flex;
-	justify-content: center;
+color: white;
 }
 
-.menu {
-	justify-content: flex-start;
-	height:10;
-	max-width:1000;
+.menu_button a:hover {
+text-decoration: none;
+color: white;
 }
 
-.menu_button {
-	border-radius: 5px;
+.menu_button a:active {
+text-decoration: none;
+color: white;
+}
+.message_me {
+	margin-left: 60%;
+	/*margin-right: 25%;*/
+	border-radius: 15px;
+	background-color: /*#70BCFF*/ white;
+	color: gray;
 	border: 2px solid black;
 	width: 1000;
 	height: 1;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
-.menu_button a {
-	text-decoration: none;
-	color: black;
+.message_you {
+	/*margin-left: 25%;*/
+	margin-right: 60%;
+	border-radius: 15px;
+	background-color: gray;
+	border: 2px solid black;
+	width: 1000;
+	height: 1;
+	padding-left: 2%;
+	padding-right: 2%;
+	Color: white;
+}
+body {
+	background-color: black;
+	color: white;
 }
 
-.menu_button:hover {
-	background-color: blue !important;
-}
-
-.chat_window {
-	margin: 0 auto;
-	border: 2px solid yellow;
-	background-color: aliceblue;
-	width: 80%;
+.dialog {
+	background-color: darkgray;
+	border-width: 2px;
+	border-bottom-color: white;
+	padding: 2%;
+	margin-right: 30%;
+	margin-left: 30%;
 	border-radius: 25px;
 }
 
-.menu_button a:link {
-text-decoration: none;
-color: black;
+.dialog p
+{
+	color: blue;
 }
 
-.menu_button a:visited {
-text-decoration: none;
-color: black;
+.dialog a:link
+{
+	color:blue;
 }
 
-.menu_button a:hover {
-text-decoration: none;
-color: black;
+.dialog a:active
+{
+	color:blue;
 }
 
-.menu_button a:active {
-text-decoration: none;
-color: black
-}
-.message_me {
-	margin-left: auto;
-	margin-right: 0;
-}
-.menu_button a:hover {
-text-decoration: none;
-color: black;
+.dialog a:hover
+{
+	color:blue;
 }
 
-.menu_button a:active {
-text-decoration: none;
-color: black
+.dialog a:visited
+{
+	color:blue;
+}
+
+.dialog a
+{
+	text-decoration: none;
+}
